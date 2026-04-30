@@ -2320,6 +2320,10 @@ scalers:
           type: string
           default: "false"
           metadataVariableReadable: true
+        - name: metricName
+          type: string
+          optional: true
+          metadataVariableReadable: true
     - type: openstack-metric
       parameters:
         - name: metricsURL
